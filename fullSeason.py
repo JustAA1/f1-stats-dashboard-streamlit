@@ -224,10 +224,3 @@ def getAllData():
     return (allTricodesToDriver, allIndivPtsResults, allTeamPtsResults, allTeamNameChanges, 
             allTeamsToDriver, allDriversToTeam, allRaceLocations, allTeamColors)
     
-
-if __name__ == "__main__":
-    xy = getSeasonData(2025)
-    for y in xy:
-        break
-        print(y, end="\n\n\n\n")
-
